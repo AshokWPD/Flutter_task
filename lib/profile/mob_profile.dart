@@ -113,21 +113,21 @@ class _mobprofState extends State<mobprof> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: Container(
-            height: 100,
-            width: 100,
-            decoration: const BoxDecoration(
-                //borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                shape: BoxShape.circle,
-                image: DecorationImage(
-                    fit: BoxFit.fill,
-                    image: AssetImage('assets/image/profileava.png'))
-                // color: Colors.orange[100],
-                ),
-          ),
-        ),
+        // Padding(
+        //   padding: const EdgeInsets.all(10.0),
+        //   child: Container(
+        //     height: 100,
+        //     width: 100,
+        //     decoration: const BoxDecoration(
+        //         //borderRadius: BorderRadius.all(Radius.circular(10.0)),
+        //         shape: BoxShape.circle,
+        //         image: DecorationImage(
+        //             fit: BoxFit.fill,
+        //             image: AssetImage('assets/image/profileava.png'))
+        //         // color: Colors.orange[100],
+        //         ),
+        //   ),
+        // ),
       ],
     );
   }
